@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Web Musicale</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom right, #1e1e1e, #121212);
+            color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        /* Titre principal */
+        h1 {
+            font-size: 48px;
+            margin-top: 50px;
+            color: #00ff99;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        /* Conteneur central de navigation */
+        .nav-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 50px;
+        }
+
+        .nav-item {
+            background-color: #333;
+            color: white;
+            padding: 20px 40px;
+            margin: 10px 0;
+            font-size: 24px;
+            text-transform: uppercase;
+            cursor: pointer;
+            width: 250px;
+            text-align: center;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .nav-item:hover {
+            background-color: #00ff99;
+            color: black;
+        }
+
+        /* Droit d'auteur en bas de la page */
+        .footer {
+            position: absolute;
+            bottom: 20px;
+            text-align: center;
+            font-size: 14px;
+            color: #888;
+        }
+
+        .footer a {
+            color: #00ff99;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Bienvenue sur notre site musical</h1>
+
+    <div class="nav-container">
+        <div class="nav-item" onclick="location.href='founders.html'">Fondateurs</div>
+        <div class="nav-item" onclick="location.href='Musique.html'">Musique</div>
+        <div class="nav-item" onclick="location.href='COntactes.html'">Contacts / Plus d'info</div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2025 Harinavalona86. Tous droits réservés.</p>
+        <p>Site web créé avec passion et musique. Pour toute question, contactez-nous.</p>
+    </div>
+
+</body>
+</html>
